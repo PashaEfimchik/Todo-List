@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'QuickSand';
+    src: url('../fonts/Quicksand-Bold.otf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'QuickSandItalic';
+    src: url('../fonts/Quicksand-BoldItalic.otf') format('truetype');
+    font-weight: bold;
+}
+
+.css-o4p848-MuiTypography-root {
+    font-family: "QuickSand" !important;
+    font-weight: bold !important;
+}
+
+.todo-item__container {
+    padding: 10px 0 10px 25px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 24px;
+}
+
+.todo-item__container label {
+    font-family: "QuickSand";
+    font-size: 20px;
+}
+
+.todo-item__button-delete {
+    width: 95px;
+    border-radius: 24px !important;
+    background-color: #c30000 !important;
+    margin-right: 10px !important;
+    font-family: "QuickSand" !important;
+    font-size: 18px !important;
+
+}
+
+.todo-item__button-edit {
+    width: 95px;
+    border-radius: 24px !important;
+    background-color: #dc9200 !important;
+    font-family: "QuickSand" !important;
+    font-size: 18px !important;
+}
+
+.todo-item__container-add {
+    margin-top: 50px;
+}
+
+.MuiInput-input.css-mm5xv6-JoyInput-input {
+    font-family: "QuickSandItalic";
+    font-size: 20px;
+}
+
+.todo-item__button-add {
+    width: 100px;
+    background-color: #52b963 !important;
+    font-family: "QuickSand" !important;
+    font-size: 18px !important;
+}
